@@ -54,7 +54,7 @@ class Header extends Component {
                     <Link to='/' onClick={this.onHome}>
                         <div style={{display: "flex", flexDirection: "row", alignItems: "center", width: "280px", justifyContent: "space-between"}}>
                             <img src={appLogo} alt="" className='app-logo' />
-                            <h1 className='app-title'>Tasty Kitchens</h1>
+                            <h1 className='app-title'>Swaad Say</h1>
                         </div>
                     </Link>
                     <div className='menu-list-box'>
@@ -90,7 +90,7 @@ class Header extends Component {
                     <Link to='/' onClick={this.onHome}>
                         <div className='mob-logo-box'>
                             <img src={appLogo} className="mob-app-logo" alt="app-logo" />
-                            <h1 className='mob-app-title'>Tasty Kitchens</h1>
+                            <h1 className='mob-app-title'>Swaad Say</h1>
                         </div>
                     </Link>
                     {menuIcon}

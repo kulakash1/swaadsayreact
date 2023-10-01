@@ -68,7 +68,7 @@ class Login extends Component {
         </div>
             <form className='login-form' onSubmit={this.onSubmit}>
                 <img src={AppLogo} alt="App Logo" className='app-logo' />
-                <h1 className='app-title'>Tasty Kitchens</h1>
+                <h1 className='app-title'>Swaad Say</h1>
                 <h1 className='login-text'>Login</h1>
                 <div style={{display: "flex", flexDirection: "column"}}>
                     <label className='form-label' htmlFor='USERNAME'>USERNAME</label>

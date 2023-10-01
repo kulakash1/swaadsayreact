@@ -7,7 +7,7 @@ const Footer = () => (
     <div className='footer-box'>
         <div className='footer-app-logo-box'>
             <img src={FooterAppLogo} alt="app-logo" className='footer-app-logo' />
-            <h2 className='footer-app-title'>Tasty Kitchens</h2>
+            <h2 className='footer-app-title'>Swaad Say</h2>
         </div>
         <p className='footer-caption-text'>The only thing we are serious about is food.</p>
         <p className='footer-caption-text'>Contact Us</p>
