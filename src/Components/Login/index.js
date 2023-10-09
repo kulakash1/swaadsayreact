@@ -72,9 +72,9 @@ class Login extends Component {
                 <h1 className='login-text'>Login</h1>
                 <div style={{display: "flex", flexDirection: "column"}}>
                     <label className='form-label' htmlFor='USERNAME'>USERNAME</label>
-                    <input type="text" className='form-input' id="USERNAME" onChange={this.onChangeUserName} />
+                    <input type="text" className='form-input' id="USERNAME" placeholder="rahul" onChange={this.onChangeUserName} />
                     <label className='form-label' htmlFor='PASSWORD'>PASSWORD</label>
-                    <input type="password" className='form-input' id="PASSWORD" onChange={this.onChangePassword} />
+                    <input type="password" className='form-input' id="PASSWORD" placeholder="rahul@2021" onChange={this.onChangePassword} />
                     <button type='submit' className='login-btn'>Login</button>
                     {this.state.isError ? (<p className='login-err-msg'>*{this.state.errorMsg}</p>) : null}
                 </div>
